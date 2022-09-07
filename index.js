@@ -1,7 +1,12 @@
+function Main(){
+    return(
+        <h1>This is the Main file</h1>
+    )
+}
+
 ReactDOM.render(
-    <ul>
-        <li>Banana</li>
-        <li>Mango</li>
-        <li>Orange</li>
-    </ul>, 
-    document.getElementById('root'))
+    <div> 
+        <Main/>
+    </div>, 
+    document.getElementById('root')
+)

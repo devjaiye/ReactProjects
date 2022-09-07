@@ -1,0 +1,1 @@
+React is composable - bit by bit files to form up a whole site 
