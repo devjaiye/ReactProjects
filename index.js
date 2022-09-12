@@ -31,13 +31,31 @@ document.getElementById('root'))
 //..JSX returns JavaScript objects 
 
 
-const pageDetail = 
-    <div>
-        <h1>Write some React</h1>
-        <p>Code today</p>
-        </div>
+// const pageDetail = 
+//     <div>
+//         <h1>Write some React</h1>
+//         <p>Code today</p>
+//         </div>
 
- ReactDOM.render(
-    pageDetail,
-    document.getElementById('root')
- ) 
+//  ReactDOM.render(
+//     pageDetail,
+//     document.getElementById('root')
+//  ) 
+
+function NavBar(){
+    return(
+        <nav>
+            <h1>Tutorial website</h1>
+            <ul> 
+                <li>Pricing</li>
+                <li>About</li>
+                <li>Contact</li>
+            </ul>
+        </nav>
+    )
+}
+
+ReactDOM.render(
+        <NavBar/>, 
+        document.getElementById('root')   
+)
